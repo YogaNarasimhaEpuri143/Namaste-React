@@ -1,0 +1,9 @@
+git remote add origin <repo-http-link>
+git remote -v
+git fetch origin                            -> Fetch updates from the remote repository, new branch get created and attach the remote branch (track)
+git pull origin <branch_name>
+git push origin <branch_name>
+
+git branch -a
+git checkout -b <branch_name>
+git checkout -d <branch_name>
